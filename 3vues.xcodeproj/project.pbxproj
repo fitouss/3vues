@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CBA15D4717271C020069C78C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBA15D4617271C020069C78C /* UIKit.framework */; };
+		CBA15D4917271C020069C78C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBA15D4817271C020069C78C /* Foundation.framework */; };
+		CBA15D4B17271C020069C78C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBA15D4A17271C020069C78C /* CoreGraphics.framework */; };
+		CBA15D5117271C020069C78C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CBA15D4F17271C020069C78C /* InfoPlist.strings */; };
+		CBA15D5317271C020069C78C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA15D5217271C020069C78C /* main.m */; };
+		CBA15D5717271C020069C78C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA15D5617271C020069C78C /* AppDelegate.m */; };
+		CBA15D5917271C020069C78C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CBA15D5817271C020069C78C /* Default.png */; };
+		CBA15D5B17271C020069C78C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBA15D5A17271C020069C78C /* Default@2x.png */; };
+		CBA15D5D17271C020069C78C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBA15D5C17271C020069C78C /* Default-568h@2x.png */; };
+		CBA15D6017271C020069C78C /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBA15D5E17271C020069C78C /* MainStoryboard_iPhone.storyboard */; };
+		CBA15D6317271C020069C78C /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBA15D6117271C020069C78C /* MainStoryboard_iPad.storyboard */; };
+		CBA15D6617271C020069C78C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA15D6517271C020069C78C /* ViewController.m */; };
+		CBA15D6E17271C020069C78C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBA15D6D17271C020069C78C /* SenTestingKit.framework */; };
+		CBA15D6F17271C020069C78C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBA15D4617271C020069C78C /* UIKit.framework */; };
+		CBA15D7017271C020069C78C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBA15D4817271C020069C78C /* Foundation.framework */; };
+		CBA15D7817271C020069C78C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CBA15D7617271C020069C78C /* InfoPlist.strings */; };
+		CBA15D7B17271C020069C78C /* _vuesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA15D7A17271C020069C78C /* _vuesTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CBA15D7117271C020069C78C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBA15D3B17271C020069C78C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBA15D4217271C020069C78C;
+			remoteInfo = 3vues;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CBA15D4317271C020069C78C /* 3vues.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3vues.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBA15D4617271C020069C78C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CBA15D4817271C020069C78C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CBA15D4A17271C020069C78C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CBA15D4E17271C020069C78C /* 3vues-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "3vues-Info.plist"; sourceTree = "<group>"; };
+		CBA15D5017271C020069C78C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CBA15D5217271C020069C78C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CBA15D5417271C020069C78C /* 3vues-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "3vues-Prefix.pch"; sourceTree = "<group>"; };
+		CBA15D5517271C020069C78C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CBA15D5617271C020069C78C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CBA15D5817271C020069C78C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CBA15D5A17271C020069C78C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CBA15D5C17271C020069C78C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CBA15D5F17271C020069C78C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		CBA15D6217271C020069C78C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		CBA15D6417271C020069C78C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CBA15D6517271C020069C78C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CBA15D6C17271C020069C78C /* 3vuesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 3vuesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBA15D6D17271C020069C78C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		CBA15D7517271C020069C78C /* 3vuesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "3vuesTests-Info.plist"; sourceTree = "<group>"; };
+		CBA15D7717271C020069C78C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CBA15D7917271C020069C78C /* _vuesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _vuesTests.h; sourceTree = "<group>"; };
+		CBA15D7A17271C020069C78C /* _vuesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _vuesTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBA15D4017271C020069C78C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBA15D4717271C020069C78C /* UIKit.framework in Frameworks */,
+				CBA15D4917271C020069C78C /* Foundation.framework in Frameworks */,
+				CBA15D4B17271C020069C78C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBA15D6817271C020069C78C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBA15D6E17271C020069C78C /* SenTestingKit.framework in Frameworks */,
+				CBA15D6F17271C020069C78C /* UIKit.framework in Frameworks */,
+				CBA15D7017271C020069C78C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBA15D3A17271C020069C78C = {
+			isa = PBXGroup;
+			children = (
+				CBA15D4C17271C020069C78C /* 3vues */,
+				CBA15D7317271C020069C78C /* 3vuesTests */,
+				CBA15D4517271C020069C78C /* Frameworks */,
+				CBA15D4417271C020069C78C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBA15D4417271C020069C78C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBA15D4317271C020069C78C /* 3vues.app */,
+				CBA15D6C17271C020069C78C /* 3vuesTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBA15D4517271C020069C78C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBA15D4617271C020069C78C /* UIKit.framework */,
+				CBA15D4817271C020069C78C /* Foundation.framework */,
+				CBA15D4A17271C020069C78C /* CoreGraphics.framework */,
+				CBA15D6D17271C020069C78C /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CBA15D4C17271C020069C78C /* 3vues */ = {
+			isa = PBXGroup;
+			children = (
+				CBA15D5517271C020069C78C /* AppDelegate.h */,
+				CBA15D5617271C020069C78C /* AppDelegate.m */,
+				CBA15D5E17271C020069C78C /* MainStoryboard_iPhone.storyboard */,
+				CBA15D6117271C020069C78C /* MainStoryboard_iPad.storyboard */,
+				CBA15D6417271C020069C78C /* ViewController.h */,
+				CBA15D6517271C020069C78C /* ViewController.m */,
+				CBA15D4D17271C020069C78C /* Supporting Files */,
+			);
+			path = 3vues;
+			sourceTree = "<group>";
+		};
+		CBA15D4D17271C020069C78C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBA15D4E17271C020069C78C /* 3vues-Info.plist */,
+				CBA15D4F17271C020069C78C /* InfoPlist.strings */,
+				CBA15D5217271C020069C78C /* main.m */,
+				CBA15D5417271C020069C78C /* 3vues-Prefix.pch */,
+				CBA15D5817271C020069C78C /* Default.png */,
+				CBA15D5A17271C020069C78C /* Default@2x.png */,
+				CBA15D5C17271C020069C78C /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CBA15D7317271C020069C78C /* 3vuesTests */ = {
+			isa = PBXGroup;
+			children = (
+				CBA15D7917271C020069C78C /* _vuesTests.h */,
+				CBA15D7A17271C020069C78C /* _vuesTests.m */,
+				CBA15D7417271C020069C78C /* Supporting Files */,
+			);
+			path = 3vuesTests;
+			sourceTree = "<group>";
+		};
+		CBA15D7417271C020069C78C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBA15D7517271C020069C78C /* 3vuesTests-Info.plist */,
+				CBA15D7617271C020069C78C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBA15D4217271C020069C78C /* 3vues */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBA15D7E17271C020069C78C /* Build configuration list for PBXNativeTarget "3vues" */;
+			buildPhases = (
+				CBA15D3F17271C020069C78C /* Sources */,
+				CBA15D4017271C020069C78C /* Frameworks */,
+				CBA15D4117271C020069C78C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 3vues;
+			productName = 3vues;
+			productReference = CBA15D4317271C020069C78C /* 3vues.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CBA15D6B17271C020069C78C /* 3vuesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBA15D8117271C020069C78C /* Build configuration list for PBXNativeTarget "3vuesTests" */;
+			buildPhases = (
+				CBA15D6717271C020069C78C /* Sources */,
+				CBA15D6817271C020069C78C /* Frameworks */,
+				CBA15D6917271C020069C78C /* Resources */,
+				CBA15D6A17271C020069C78C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBA15D7217271C020069C78C /* PBXTargetDependency */,
+			);
+			name = 3vuesTests;
+			productName = 3vuesTests;
+			productReference = CBA15D6C17271C020069C78C /* 3vuesTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBA15D3B17271C020069C78C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Fitoussi Jonathan";
+			};
+			buildConfigurationList = CBA15D3E17271C020069C78C /* Build configuration list for PBXProject "3vues" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CBA15D3A17271C020069C78C;
+			productRefGroup = CBA15D4417271C020069C78C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBA15D4217271C020069C78C /* 3vues */,
+				CBA15D6B17271C020069C78C /* 3vuesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBA15D4117271C020069C78C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBA15D5117271C020069C78C /* InfoPlist.strings in Resources */,
+				CBA15D5917271C020069C78C /* Default.png in Resources */,
+				CBA15D5B17271C020069C78C /* Default@2x.png in Resources */,
+				CBA15D5D17271C020069C78C /* Default-568h@2x.png in Resources */,
+				CBA15D6017271C020069C78C /* MainStoryboard_iPhone.storyboard in Resources */,
+				CBA15D6317271C020069C78C /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBA15D6917271C020069C78C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBA15D7817271C020069C78C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CBA15D6A17271C020069C78C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBA15D3F17271C020069C78C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBA15D5317271C020069C78C /* main.m in Sources */,
+				CBA15D5717271C020069C78C /* AppDelegate.m in Sources */,
+				CBA15D6617271C020069C78C /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBA15D6717271C020069C78C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBA15D7B17271C020069C78C /* _vuesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBA15D7217271C020069C78C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBA15D4217271C020069C78C /* 3vues */;
+			targetProxy = CBA15D7117271C020069C78C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CBA15D4F17271C020069C78C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBA15D5017271C020069C78C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CBA15D5E17271C020069C78C /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBA15D5F17271C020069C78C /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		CBA15D6117271C020069C78C /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBA15D6217271C020069C78C /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		CBA15D7617271C020069C78C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBA15D7717271C020069C78C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBA15D7C17271C020069C78C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CBA15D7D17271C020069C78C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBA15D7F17271C020069C78C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "3vues/3vues-Prefix.pch";
+				INFOPLIST_FILE = "3vues/3vues-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CBA15D8017271C020069C78C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "3vues/3vues-Prefix.pch";
+				INFOPLIST_FILE = "3vues/3vues-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CBA15D8217271C020069C78C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/3vues.app/3vues";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "3vues/3vues-Prefix.pch";
+				INFOPLIST_FILE = "3vuesTests/3vuesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CBA15D8317271C020069C78C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/3vues.app/3vues";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "3vues/3vues-Prefix.pch";
+				INFOPLIST_FILE = "3vuesTests/3vuesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBA15D3E17271C020069C78C /* Build configuration list for PBXProject "3vues" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBA15D7C17271C020069C78C /* Debug */,
+				CBA15D7D17271C020069C78C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBA15D7E17271C020069C78C /* Build configuration list for PBXNativeTarget "3vues" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBA15D7F17271C020069C78C /* Debug */,
+				CBA15D8017271C020069C78C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CBA15D8117271C020069C78C /* Build configuration list for PBXNativeTarget "3vuesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBA15D8217271C020069C78C /* Debug */,
+				CBA15D8317271C020069C78C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBA15D3B17271C020069C78C /* Project object */;
+}
